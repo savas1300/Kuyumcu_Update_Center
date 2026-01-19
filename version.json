@@ -1,6 +1,8 @@
 {
-  "latest_version": "1.0.0",
-  "download_url": "",
+  "latest_version": "9.9.9",
+  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v9.9.9/YENI_SURUM.zip",
   "force_update": false,
-  "changelog": []
+  "changelog": [
+    "Test yapıyoruz."
+  ]
 }
