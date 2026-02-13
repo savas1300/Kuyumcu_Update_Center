@@ -1,9 +1,10 @@
    {
-     "latest_version": "1.0.2",
-     "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v1.0.2/update_package.zip",
+     "latest_version": "1.0.3",
+     "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v1.0.3/update_package.zip",
      "force_update": false,
      "changelog": ["Test güncellemesi"]
    }
+
 
 
 
