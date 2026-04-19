@@ -1,8 +1,20 @@
 {
   "schema_version": 1,
+
+  "latest_version": "1.0.5",
+  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/1.0.5/update_package.zip",
+  "force_update": false,
+  "changelog": [
+    "Kritik: WAL/Fast Startup veri kaybı koruması guclendirildi",
+    "Yedek sifreleri birlestirildi; eski yedekler otomatik aciliyor",
+    "Log sistemi yenilendi: Kritik/Uyari/Normal kategorileri, 7 gun rotasyon",
+    "Restore guvenlik yedegi artik DB+WAL+SHM birlikte aliyor",
+    "init_database sessiz hata duzeltildi",
+    "Dashboard: CANLI bandina tahminidir notu"
+  ],
+
   "recommended_version": "1.0.5",
   "default_version": "1.0.5",
-  "force_update": false,
   "downgrade_policy": {
     "enabled": true,
     "require_db_backup": true,
@@ -12,7 +24,7 @@
     {
       "version": "1.0.4",
       "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/1.0.4/update_package.zip",
-      "changelog": ["Test güncellemesi"],
+      "changelog": ["Test guncellemesi"],
       "blocked": false,
       "allow_downgrade_to": true
     },
@@ -20,12 +32,12 @@
       "version": "1.0.5",
       "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/1.0.5/update_package.zip",
       "changelog": [
-        "Kritik: WAL/Fast Startup veri kaybı koruması güçlendirildi",
-        "Yedek şifreleri birleştirildi; eski yedekler otomatik açılıyor",
-        "Log sistemi yenilendi: Kritik/Uyarı/Normal kategorileri, 7 gün rotasyon",
-        "Restore güvenlik yedeği artık DB+WAL+SHM birlikte alıyor",
-        "init_database sessiz hata düzeltildi",
-        "Dashboard: CANLI bandına tahminidir notu"
+        "Kritik: WAL/Fast Startup veri kaybi korumasi guclendirildi",
+        "Yedek sifreleri birlestirildi; eski yedekler otomatik aciliyor",
+        "Log sistemi yenilendi: Kritik/Uyari/Normal kategorileri, 7 gun rotasyon",
+        "Restore guvenlik yedegi artik DB+WAL+SHM birlikte aliyor",
+        "init_database sessiz hata duzeltildi",
+        "Dashboard: CANLI bandina tahminidir notu"
       ],
       "blocked": false,
       "allow_downgrade_to": true
