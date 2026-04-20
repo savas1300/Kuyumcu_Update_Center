@@ -22,7 +22,7 @@
   },
   "releases": [
     {
-      "version": "1.0.4",
+      "version": "v1.0.4",
       "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/1.0.4/update_package.zip",
       "changelog": ["Test guncellemesi"],
       "blocked": false,
