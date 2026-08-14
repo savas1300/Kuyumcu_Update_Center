@@ -53,7 +53,7 @@
     {
       "version": "1.0.9",
       "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v1.0.9/update_package.zip",
-      "sha256": "6e857ae8167f374c7e89a2b7005b4e6fe552ef230a604ef1589ebc45da41640c",
+      "sha256": "af9b59739020023bd3835bd7c44df4abad1568f7d16d49fe0a15be09e1935d99",
       "changelog": [
         "Lisans aktivasyonu: lidya_license_get / bind_hwid RPC",
         "Premium güncelleme ekranı",
