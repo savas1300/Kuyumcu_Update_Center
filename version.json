@@ -1,20 +1,19 @@
 {
   "schema_version": 1,
 
-  "latest_version": "1.0.7",
-  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v1.0.7/update_package.zip",
-  "force_update": false,
+  "latest_version": "1.0.8",
+  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v1.0.8/update_package.zip",
+  "force_update": true,
+  "sha256": "e94093eda014c2219e13dab9ff62290b21f15416ca8b6bbfb11da3480415c6c6",
   "changelog": [
-    "Cari rehber: büyük listelerde kasma azaltıldı",
-    "Müşteri ekleme / silme / çöp kutusu düzeltmeleri",
-    "Kasa: tarih ve saat korunuyor",
-    "Güncelleme: Stable / Beta kanalı eklendi",
-    "Sentry: arama ve rapor hataları giderildi",
-    "Not: Güncellemeden önce yedek alın"
+    "1.0.8 Stable hotfix — bulut/mobil yok",
+    "Miktar: düzenleme/yüklemede yuvarlama yok; ondalık hassasiyet korunur",
+    "Yazdırma: 80/58 mm fiş düzeni ve önizleme düzeltmeleri",
+    "Yerel işlem günlüğü: kim ne ekledi/düzenledi/sildi (sadece bu PC)"
   ],
 
-  "recommended_version": "1.0.7",
-  "default_version": "1.0.7",
+  "recommended_version": "1.0.8",
+  "default_version": "1.0.8",
   "downgrade_policy": {
     "enabled": true,
     "require_db_backup": true,
@@ -22,31 +21,21 @@
   },
   "releases": [
     {
-      "version": "1.0.4",
-      "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v1.0.4/update_package.zip",
-      "changelog": [
-        "Test güncellemesi (geri dönüş için)"
-      ],
-      "blocked": false,
-      "allow_downgrade_to": true
-    },
-    {
-      "version": "1.0.6",
-      "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/1.0.6/update_package.zip",
-      "changelog": [
-        "Kritik: Türkçe sayı girişi ve WAL koruması"
-      ],
-      "blocked": false,
-      "allow_downgrade_to": true
-    },
-    {
       "version": "1.0.7",
       "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v1.0.7/update_package.zip",
       "changelog": [
-        "Cari performans + çöp/silme düzeltmeleri",
-        "Kasa tarih/saat",
-        "Stable/Beta kanalı",
-        "Sentry worker/rapor düzeltmeleri"
+        "Cari performans + çöp/silme mantığı"
+      ],
+      "blocked": false,
+      "allow_downgrade_to": true
+    },
+    {
+      "version": "1.0.8",
+      "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v1.0.8/update_package.zip",
+      "changelog": [
+        "Miktar hassasiyeti / yuvarlama düzeltmesi",
+        "Yazdırma düzenlemeleri",
+        "Yerel işlem günlüğü"
       ],
       "blocked": false,
       "allow_downgrade_to": true
