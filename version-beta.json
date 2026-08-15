@@ -1,9 +1,10 @@
 {
-  "latest_version": "2.0.1",
-  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.1-mobile-beta/update_package.zip",
+  "latest_version": "2.0.2",
+  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.2-mobile-beta/update_package.zip",
   "force_update": false,
   "changelog": [
-    "Mobil+ deneme: karekod, 5 dk süre",
+    "Mobil+ 2.0.2 (2.0.1 atlandı, bozuktu)",
+    "Karekod pakette hazır",
     "Onay yoksa yerel kullanım 2.0.0 gibi kalır"
   ]
 }
