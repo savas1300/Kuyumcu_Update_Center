@@ -1,22 +1,32 @@
 {
   "schema_version": 1,
-  "latest_version": "2.0.1",
-  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.1-mobile-beta/update_package.zip",
+  "latest_version": "2.0.2",
+  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.2-mobile-beta/update_package.zip",
   "force_update": false,
   "sha256": "",
   "changelog": [
-    "Kokpit karekod ile telefon eşleme",
-    "5 dakika geri sayım, süre bitince yeni QR"
+    "Karekod pakette hazır (bulut anahtarı gömülü)",
+    "PC 2.0.0 çöp kutusu",
+    "PC Stable 2.0.0'a dönüş",
+    "5 dk karekod süresi"
   ],
   "releases": [
+    {
+      "version": "2.0.2",
+      "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.2-mobile-beta/update_package.zip",
+      "sha256": "",
+      "changelog": [
+        "Karekod pakette hazır",
+        "Çöp kutusu + PC 2.0.0 dönüş"
+      ],
+      "blocked": false,
+      "allow_downgrade_to": true
+    },
     {
       "version": "2.0.1",
       "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.1-mobile-beta/update_package.zip",
       "sha256": "",
-      "changelog": [
-        "Kokpit karekod ile telefon eşleme",
-        "5 dakika geri sayım, süre bitince yeni QR"
-      ],
+      "changelog": ["Önceki beta"],
       "blocked": false,
       "allow_downgrade_to": true
     }
