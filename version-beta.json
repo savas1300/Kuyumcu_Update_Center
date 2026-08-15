@@ -1,8 +1,9 @@
 {
-  "latest_version": "1.0.7",
-  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v1.0.7-beta/update_package.zip",
+  "latest_version": "2.0.1",
+  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.1-mobile-beta/update_package.zip",
   "force_update": false,
   "changelog": [
-    "BETA test — sadece Beta kanalındaki makineler"
+    "Mobil+ deneme: karekod, 5 dk süre",
+    "Onay yoksa yerel kullanım 2.0.0 gibi kalır"
   ]
 }
