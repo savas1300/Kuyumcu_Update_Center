@@ -1,5 +1,6 @@
 {
   "schema_version": 1,
+
   "latest_version": "2.0.3",
   "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.3-mobile/update_package.zip",
   "force_update": false,
@@ -7,8 +8,10 @@
   "changelog": [
     "Mobil+ PC 2.0.3 kararlı sürüm",
     "PC 2.0 kabuk, bildirim ve güncelleme diyaloğu",
-    "Mobil eşleştirme / karekod ve bulut senkron"
+    "Mobil eşleştirme / karekod ve bulut senkron",
+    "Güncelleme kanalı version-mobile.json (PC 20 dükkâna karışmaz)"
   ],
+
   "recommended_version": "2.0.3",
   "default_version": "2.0.3",
   "downgrade_policy": {
@@ -35,7 +38,7 @@
       "sha256": "",
       "changelog": [
         "Karekod pakette hazır",
-        "Çöp kutusu + PC 2.0.0 dönüş"
+        "PC 2.0.0 çöp kutusu"
       ],
       "blocked": false,
       "allow_downgrade_to": true
