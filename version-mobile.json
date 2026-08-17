@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
 
-  "latest_version": "2.0.3",
-  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.3-mobile/update_package.zip",
+  "latest_version": "2.0.4",
+  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.4-mobile/update_package.zip",
   "force_update": false,
-  "sha256": "1A73CC943B888EC21016B48B78CF201E8EB4706957FEEC17217DCA33CF8034DD",
+  "sha256": "597F42914427BB97E0F29F9368CB0FFBF20ECD33CB6E6BACCF8EE7F614AEF845",
   "changelog": [
-    "Mobil+ PC 2.0.3 kararlı sürüm",
-    "PC 2.0 kabuk, bildirim ve güncelleme diyaloğu",
-    "Mobil eşleştirme / karekod ve bulut senkron",
-    "Güncelleme kanalı version-mobile.json (PC 20 dükkâna karışmaz)"
+    "Mobil+ PC 2.0.4 — Safari/QR için yeni PWA adresi",
+    "Karekod workers.dev üzerinden açılır (pages.dev ağ engeli)",
+    "Eşleştirme linki doğrudan /login?shop=&code=",
+    "PC Stable 2.0.0 kanalına karışmaz"
   ],
 
-  "recommended_version": "2.0.3",
-  "default_version": "2.0.3",
+  "recommended_version": "2.0.4",
+  "default_version": "2.0.4",
   "downgrade_policy": {
     "enabled": true,
     "require_db_backup": true,
@@ -21,24 +21,24 @@
   },
   "releases": [
     {
-      "version": "2.0.3",
-      "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.3-mobile/update_package.zip",
-      "sha256": "1A73CC943B888EC21016B48B78CF201E8EB4706957FEEC17217DCA33CF8034DD",
+      "version": "2.0.4",
+      "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.4-mobile/update_package.zip",
+      "sha256": "597F42914427BB97E0F29F9368CB0FFBF20ECD33CB6E6BACCF8EE7F614AEF845",
       "changelog": [
-        "Mobil+ PC 2.0.3 kararlı sürüm",
-        "PC 2.0 kabuk, bildirim ve güncelleme diyaloğu",
-        "Mobil eşleştirme / karekod ve bulut senkron"
+        "Mobil+ PC 2.0.4 — Safari/QR için yeni PWA adresi",
+        "Karekod workers.dev üzerinden açılır (pages.dev ağ engeli)",
+        "Eşleştirme linki doğrudan /login?shop=&code=",
+        "PC Stable 2.0.0 kanalına karışmaz"
       ],
       "blocked": false,
       "allow_downgrade_to": true
     },
     {
-      "version": "2.0.2",
-      "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.2-mobile-beta/update_package.zip",
+      "version": "2.0.3",
+      "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.3-mobile/update_package.zip",
       "sha256": "",
       "changelog": [
-        "Karekod pakette hazır",
-        "PC 2.0.0 çöp kutusu"
+        "Mobil+ PC 2.0.3 kararlı sürüm"
       ],
       "blocked": false,
       "allow_downgrade_to": true
