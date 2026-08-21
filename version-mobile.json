@@ -1,25 +1,40 @@
 {
   "schema_version": 1,
 
-  "latest_version": "2.0.5",
-  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.5-mobile/update_package.zip",
+  "latest_version": "2.0.6",
+  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.6-mobile/update_package.zip",
   "force_update": false,
-  "sha256": "01D3E27914AA61CCC564C3631EA409DE6F2D2ABABE697F486E762D22AB962BB3",
+  "sha256": "F674B57F3833CFF8C8988D6F8421E4003EE50A3503E9787C2B5A3D120F71523F",
   "changelog": [
-    "Mobil+ PC 2.0.5 — kurulum yardımcısı (updater.exe) eklendi",
-    "Otomatik güncelleme hatası giderildi",
-    "Safari/QR için workers.dev PWA adresi",
-    "PC Stable 2.0.0 kanalına karışmaz"
+    "Mobil+ PC 2.0.6 — cari saat senkronu ve tek seferlik saat onarımı",
+    "WhatsApp mobil format (aktif bakiye, Sayın müşteri, otomatik mesaj)",
+    "Tutar gösterimi 2 hane — yuvarlama yok",
+    "PWA kayıt onayı ve sync koruması",
+    "Büyük cari listeleri için sayfalama desteği"
   ],
 
-  "recommended_version": "2.0.5",
-  "default_version": "2.0.5",
+  "recommended_version": "2.0.6",
+  "default_version": "2.0.6",
   "downgrade_policy": {
     "enabled": true,
     "require_db_backup": true,
     "show_warning": true
   },
   "releases": [
+    {
+      "version": "2.0.6",
+      "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.6-mobile/update_package.zip",
+      "sha256": "F674B57F3833CFF8C8988D6F8421E4003EE50A3503E9787C2B5A3D120F71523F",
+      "changelog": [
+        "Mobil+ PC 2.0.6 — cari saat senkronu ve tek seferlik saat onarımı",
+        "WhatsApp mobil format (aktif bakiye, Sayın müşteri, otomatik mesaj)",
+        "Tutar gösterimi 2 hane — yuvarlama yok",
+        "PWA kayıt onayı ve sync koruması",
+        "Büyük cari listeleri için sayfalama desteği"
+      ],
+      "blocked": false,
+      "allow_downgrade_to": true
+    },
     {
       "version": "2.0.5",
       "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.5-mobile/update_package.zip",
@@ -29,16 +44,6 @@
         "Otomatik güncelleme hatası giderildi",
         "Safari/QR için workers.dev PWA adresi",
         "PC Stable 2.0.0 kanalına karışmaz"
-      ],
-      "blocked": false,
-      "allow_downgrade_to": true
-    },
-    {
-      "version": "2.0.4",
-      "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.4-mobile/update_package.zip",
-      "sha256": "597F42914427BB97E0F29F9368CB0FFBF20ECD33CB6E6BACCF8EE7F614AEF845",
-      "changelog": [
-        "Mobil+ PC 2.0.4 — Safari/QR için yeni PWA adresi"
       ],
       "blocked": false,
       "allow_downgrade_to": true
