@@ -1,5 +1,6 @@
 {
   "schema_version": 1,
+  "product_line": "mobile_stable",
 
   "latest_version": "2.0.6",
   "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.6-mobile/update_package.zip",
@@ -23,6 +24,7 @@
   "releases": [
     {
       "version": "2.0.6",
+      "product_line": "mobile_stable",
       "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.6-mobile/update_package.zip",
       "sha256": "F674B57F3833CFF8C8988D6F8421E4003EE50A3503E9787C2B5A3D120F71523F",
       "changelog": [
