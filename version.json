@@ -76,10 +76,11 @@
       "version": "2.0.1",
       "product_line": "pc_stable",
       "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.1/update_package.zip",
-      "sha256": "2a854d58b3d41283c6a042ec749e04275ba96758e5c2b44e25daca039cfd2a29",
+      "sha256": "214cfb96057d45f0d0b5414b32a182352afe5dba9212b82cb93089382e314d6b",
       "changelog": [
         "PC Stable 2.0.1 — yerel ERP (bulut sync kapalı)",
         "Otomatik güncelleme: VANTAGESEAL.exe kurulumları tek seferde 2.0.1'e geçer",
+        "Güncelleme paketinde updater.exe (2.0.0 kurulumları için)",
         "Kokpit Mobil+ reklam kartı (upsell)",
         "Canlı destek sohbet balonu kaldırıldı",
         "Kasa UI gizli (veri korunur)",
