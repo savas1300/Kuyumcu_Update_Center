@@ -1,22 +1,19 @@
 {
   "schema_version": 1,
   "product_line": "pc_stable",
-
-  "latest_version": "2.0.1",
-  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.1/update_package.zip",
+  "latest_version": "2.0.2",
+  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.2/update_package.zip",
   "force_update": false,
-  "sha256": "1cc34f5eaf9161acd403f7cd046df57e8fcc0010f4cd4e6f209dc67b0deb3ed0",
+  "sha256": "8b5b6a601e6d6538e5e126c63f3b2db47e8c925b2c570756dbde1ad08fe9567d",
   "changelog": [
-    "PC Stable 2.0.1 — yerel ERP (bulut sync kapalı)",
-    "2.0.0 otomatik güncelleme düzeltmesi (updater + VANTAGESEAL alias + BAT yedek)",
-    "Kokpit Mobil+ reklam kartı (upsell)",
-    "Canlı destek sohbet balonu kaldırıldı",
-    "Kasa UI gizli (veri korunur)",
-    "Performans ve kararlılık iyileştirmeleri"
+    "PC Stable 2.0.2 — kararlı taban (yeniden paket)",
+    "Cari tutar girişi: birim değişince rakam bozulmuyor",
+    "Gün sonu e-posta: açılışta dünün özeti (doğrulanmış operatör e-postası)",
+    "Gün Özeti: manuel e-postaya gönder butonu",
+    "Otomatik güncelleme + veri klasörü birleştirme iyileştirmeleri"
   ],
-
-  "recommended_version": "2.0.1",
-  "default_version": "2.0.1",
+  "recommended_version": "2.0.2",
+  "default_version": "2.0.2",
   "downgrade_policy": {
     "enabled": true,
     "require_db_backup": true,
@@ -83,6 +80,21 @@
         "Canlı destek sohbet balonu kaldırıldı",
         "Kasa UI gizli (veri korunur)",
         "Performans ve kararlılık iyileştirmeleri"
+      ],
+      "blocked": false,
+      "allow_downgrade_to": true
+    },
+    {
+      "version": "2.0.2",
+      "product_line": "pc_stable",
+      "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.2/update_package.zip",
+      "sha256": "8b5b6a601e6d6538e5e126c63f3b2db47e8c925b2c570756dbde1ad08fe9567d",
+      "changelog": [
+        "PC Stable 2.0.2 — kararlı taban (yeniden paket)",
+        "Cari tutar girişi: birim değişince rakam bozulmuyor",
+        "Gün sonu e-posta: açılışta dünün özeti (doğrulanmış operatör e-postası)",
+        "Gün Özeti: manuel e-postaya gönder butonu",
+        "Otomatik güncelleme + veri klasörü birleştirme iyileştirmeleri"
       ],
       "blocked": false,
       "allow_downgrade_to": true
