@@ -1,19 +1,22 @@
 {
   "schema_version": 1,
   "product_line": "pc_stable",
-  "latest_version": "2.0.2",
-  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.2/update_package.zip",
+  "latest_version": "2.0.3",
+  "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.3/update_package.zip",
   "force_update": false,
-  "sha256": "8b5b6a601e6d6538e5e126c63f3b2db47e8c925b2c570756dbde1ad08fe9567d",
+  "sha256": "432f3b7a137074da0fc712911bd7784ea7a808e2944cc00d5c57e09602742077",
   "changelog": [
-    "PC Stable 2.0.2 — kararlı taban (yeniden paket)",
-    "Cari tutar girişi: birim değişince rakam bozulmuyor",
-    "Gün sonu e-posta: açılışta dünün özeti (doğrulanmış operatör e-postası)",
-    "Gün Özeti: manuel e-postaya gönder butonu",
-    "Otomatik güncelleme + veri klasörü birleştirme iyileştirmeleri"
+    "PC Stable 2.0.3 — fiş ve çıktı",
+    "80 mm bakiye tablosu: Varlık %20, Bende %40, İsterim %40; değer 0 olsa da eşit, sağ kenar kesilmez",
+    "Net ve çift taraflı aynı kısa kodlar (TL, Has, Y. Çeyrek)",
+    "Yazılar kalın siyah",
+    "İsteğe bağlı dükkan logosu (punto 20–72)",
+    "Yazıcı Windows listesinden seçilir; Yazdır önizlemedeki tabloyu penceresiz basar",
+    "Çıktı sekmesi: bakiye özeti veya işlem geçmişi, WhatsApp şablonu, PDF klasörü",
+    "Tutar girişi ve bakiye hesabı 2.0.2 ile aynı"
   ],
-  "recommended_version": "2.0.2",
-  "default_version": "2.0.2",
+  "recommended_version": "2.0.3",
+  "default_version": "2.0.3",
   "downgrade_policy": {
     "enabled": true,
     "require_db_backup": true,
@@ -95,6 +98,24 @@
         "Gün sonu e-posta: açılışta dünün özeti (doğrulanmış operatör e-postası)",
         "Gün Özeti: manuel e-postaya gönder butonu",
         "Otomatik güncelleme + veri klasörü birleştirme iyileştirmeleri"
+      ],
+      "blocked": false,
+      "allow_downgrade_to": true
+    },
+    {
+      "version": "2.0.3",
+      "product_line": "pc_stable",
+      "download_url": "https://github.com/savas1300/Kuyumcu_Update_Center/releases/download/v2.0.3/update_package.zip",
+      "sha256": "432f3b7a137074da0fc712911bd7784ea7a808e2944cc00d5c57e09602742077",
+      "changelog": [
+        "PC Stable 2.0.3 — fiş ve çıktı",
+        "80 mm bakiye tablosu: Varlık %20, Bende %40, İsterim %40; değer 0 olsa da eşit, sağ kenar kesilmez",
+        "Net ve çift taraflı aynı kısa kodlar (TL, Has, Y. Çeyrek)",
+        "Yazılar kalın siyah",
+        "İsteğe bağlı dükkan logosu (punto 20–72)",
+        "Yazıcı Windows listesinden seçilir; Yazdır önizlemedeki tabloyu penceresiz basar",
+        "Çıktı sekmesi: bakiye özeti veya işlem geçmişi, WhatsApp şablonu, PDF klasörü",
+        "Tutar girişi ve bakiye hesabı 2.0.2 ile aynı"
       ],
       "blocked": false,
       "allow_downgrade_to": true
